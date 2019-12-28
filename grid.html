@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+.container
+{
+    display: grid;
+    grid-template-columns: auto 100px 100px;
+    grid-template-rows: 50px repeat(5, 100px) 40px repeat(11,100px) 80px;
+    grid-gap: 10px 10px;
+}
+
+
+.border
+{
+    border: 1px solid black;
+    box-shadow: 2px 1px gray;
+    border-radius: 10px;
+}
+.item1
+{
+    background-color: aqua;
+    grid-column: 1/4;
+ 
+    
+}
+
+.item2
+{
+    background-color: indigo;
+    grid-row: 2/8;
+    color: white;
+    padding: 5px;
+}
+
+.item3
+{
+    background-color: pink;
+    grid-column:2/4;
+    grid-row:2/8 ;
+}
+
+.item4
+{
+    background-color: lime;
+    grid-column: 1/4;
+    border-radius: 100px;;
+    
+}
+
+.item5
+{
+    background-color: teal;
+    grid-column: 1/4;
+    grid-row: 9/12;
+   
+}
+
+.item6
+{
+    background-color: khaki;
+    grid-column: 1/4;
+    grid-row: 12/15;
+}
+
+.item7
+{
+    background-color: yellowgreen;
+    grid-row: 15/19;
+}
+
+.item8
+{
+    background-color: yellow;
+    grid-column: 2/4;
+    grid-row: 15/19;
+}
+.item9
+{
+    background-color: green;
+}
+.item9
+{
+    background-color: red;
+    grid-column: 1/4;
+
+}
+
+</style>
+<body>
+    
+
+
+<div class="container">
+<div class="items border item1">1
+    
+
+
+
+<h1>This is example of grid</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class=" border items item2">2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<div class=" border items item3">3</div>
+<div class=" border items item4">4</div>
+<div class=" border items item5">5</div>
+<div class=" border    items item6">6</div>
+<div class="items border item7">7</div>
+<div class="items border item8">8</div>
+<div class="items border item9">9</div>
+
+</div>
+</body>
+</html>
